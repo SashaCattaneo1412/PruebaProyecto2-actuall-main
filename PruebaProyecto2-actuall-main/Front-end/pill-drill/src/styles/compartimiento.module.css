@@ -1,13 +1,18 @@
 .container{
+
   display: grid;
-  place-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 10px; /* Ajusta el espacio entre los botones */
+  align-items: center;
+  justify-items: center;
 }
 
 
 
 
 .botonComp1{
-  background-image: url('/Image/LOGO.jpg');
+  background-image: url('/Image/LOGO.png');
   background-size: cover;
   border: none;
   color: white;
@@ -17,7 +22,7 @@
 
 }
 .botonComp2{
-  background-image: url('/Image/LOGO.jpg');
+  background-image: url('/Image/LOGO.png');
   background-size: cover;
   padding: 10px 20px;
   border: none;
@@ -25,7 +30,7 @@
   width:220px;
   height:200px;
 }.botonComp3{
-  background-image: url('/Image/LOGO.jpg');
+  background-image: url('/Image/LOGO.png');
   background-size: cover;
   padding: 10px 20px;
   border: none;
@@ -33,7 +38,7 @@
   width:220px;
   height:200px;
 }.botonComp4{
-  background-image: url('/Image/LOGO.jpg');
+  background-image: url('/Image/LOGO.png');
   background-size: cover;
   padding: 10px 20px;
   border: none;

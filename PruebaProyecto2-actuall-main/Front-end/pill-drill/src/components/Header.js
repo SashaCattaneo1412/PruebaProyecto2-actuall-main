@@ -7,7 +7,7 @@ const Header = () => {
        <div className="contenedor">
        <div className={style.barra}>
         <Link href="/">
-          <Image width={150} height={150} src="/Image/LOGO.jpg" alt="Imagen Logo" />
+          <Image width={180} height={150} src="/Image/LOGO.png" alt="Imagen Logo" />
         </Link>
          <nav className={style.navegacion}>
             <Link href="/Registrarse"> Registrarse </Link>
