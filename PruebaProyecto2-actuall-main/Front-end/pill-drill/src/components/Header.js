@@ -13,6 +13,7 @@ const Header = () => {
             <Link href="/Registrarse"> Registrarse </Link>
             <Link href="/InicioSesion"> Inicio de sesion </Link>
             <Link href="/pastilla1"> Pastillas </Link>
+            <Link href="/compartimiento"> compartimiento</Link>
          </nav>
          </div>
        </div> 

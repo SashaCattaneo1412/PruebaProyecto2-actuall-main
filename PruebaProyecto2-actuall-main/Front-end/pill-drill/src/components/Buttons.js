@@ -3,9 +3,10 @@ import styles from '../styles/Button.module.css'; // Importa los estilos CSS esp
 
 const Button = ({ text, onClick }) => {
   return (
-    <button className={styles.button} onClick={onClick}>
+    <button className={styles.boton} onClick={onClick}>
       {text}
     </button>
+    
   );
 };
 
